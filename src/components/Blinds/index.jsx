@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css';
 import blindsOpen from './images/blinds-open.svg'
+import blindsClosed from './images/blinds-closed.svg'
 
 
 const Blinds = () => {
@@ -8,7 +9,7 @@ const Blinds = () => {
 
         <div className="blinds">
 				<div className="blinds__icon">
-					<img src={blindsOpen} />
+					<img src={blindsOpen}/>
 				</div>
 				<div className="blinds__name">
 					Žaluzie

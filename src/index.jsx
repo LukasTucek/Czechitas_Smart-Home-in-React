@@ -12,7 +12,7 @@ const App = () => (
     <div className="container">
     
       <Header title='Chytrý dům' />
-      <Dashboard lights={data}/>
+      <Dashboard data={data}/>
 
     </div>
   

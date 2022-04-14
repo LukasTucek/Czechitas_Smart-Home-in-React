@@ -3,18 +3,22 @@ export const smartHomeData = {
 		{
 			name: 'Obývací pokoj',
 			state: 'off',
+			id: 1,
 		},
 		{
 			name: 'Ložnice',
 			state: 'on',
+			id: 2,
 		},
 		{
 			name: 'Kuchyně',
 			state: 'on',
+			id: 3,
 		},
 		{
 			name: 'Chodba',
 			state: 'off',
+			id: 4,
 		},
 	],
 	climate: {
