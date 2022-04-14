@@ -12,6 +12,7 @@ const Blinds = ( {state} ) => {
 	
 	return (
 
+
         <div className="blinds">
 				<div className="blinds__icon">
 					<img src={blinds ? blindsOpen : blindsClosed}/>
@@ -20,8 +21,8 @@ const Blinds = ( {state} ) => {
 					Žaluzie
 				</div>
 				<div className="blinds__controls">
-					<button className={blindsOpen ? 'button button--active' : ''} onClick={() => {setBlinds(state)}}>Otevřeno</button>
-					<button className={blindsClosed ? 'button' : 'button button--active'} onClick={() => {setBlinds(!state)}}>Zavřeno</button>
+					<button onClick={() => {setBlinds(state)}} className={blinds ? 'button button--active' : 'button'}>Otevřeno</button>
+					<button onClick={() => {setBlinds(!state)}} className={!blinds ? 'button button--active' : 'button'}>Zavřeno</button>
 				</div>
 			</div>
 
