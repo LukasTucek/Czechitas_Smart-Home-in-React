@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans Mono', monospace;
+	background: #013565 url('./images/house.jpg') center/cover no-repeat ;
 }
 
-html {
-  font-family: 'Open Sans', sans-serif;
+.container {
+	display: flex;
 }
