@@ -13,12 +13,10 @@ const Dashboard = ( {data} ) => {
 
         <main className="dashboard">
 
-
         <Lights lights={data.lights} />
-        <Climate climate={data.climate} />
-        <Blinds state={data.binds} />
-        <Energy energyConsumption={data.energyConsumption} />
-
+        <Climate temperature={data.climate.temperature} humidity={data.climate.humidity}/>
+        <Blinds state={data.blinds} />
+        <Energy electricity={data.energyConsumption.electricity} water={data.energyConsumption.water} />
 
 
         </main>
