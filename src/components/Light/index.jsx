@@ -19,7 +19,7 @@ const Light = ( {name, state} ) => {
                     <img src={active ? lightOn : lightOff} />
                 </div>
                 <div className="light__name">
-                    {name} {state}
+                    {name}
                 </div>
         </div>
 
